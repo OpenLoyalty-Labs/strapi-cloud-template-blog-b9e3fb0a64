@@ -35,6 +35,14 @@
     "cta_link": {
       "type": "string"
     },
+    "learn_more_text": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
     "background_image": {
       "type": "media",
       "multiple": false,

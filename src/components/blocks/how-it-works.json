@@ -7,7 +7,23 @@
   },
   "options": {},
   "attributes": {
+    "section_label": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
     "title": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "subtitle": {
       "type": "string",
       "pluginOptions": {
         "i18n": {
