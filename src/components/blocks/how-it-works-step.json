@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_blocks_how_it_works_steps",
+  "info": {
+    "displayName": "How It Works Step",
+    "icon": "bulletList",
+    "description": "Single step with icon, title, and description"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "description": {
+      "type": "text",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}
